@@ -3,3 +3,67 @@ body {
     padding: 0;
     font-family: Roboto;
 }
+
+
+
+.bgc-header {
+    background-image: url("./img/bgc.png");
+    height: 800px;
+}
+
+
+header {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 100px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.logo {
+    padding-right: 311px;
+    padding-top: 33px;
+}
+
+.nav-content {
+    padding-top: 35px;
+}
+
+.nav ul {
+    display: flex;
+    color: white;
+    list-style-type: none;
+
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 47px;
+    font-size: 16px;
+}
+
+.search {
+    padding-top: 31.91px;
+    padding-right: 70px;
+}
+
+.translation a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+
+.translation {
+    padding-top: 14.91px;
+}
+
+.translation img{
+    padding-right: 11px;
+}
+
+.border {
+    border-top: 1px solid #FFFFFF;
+}
+
