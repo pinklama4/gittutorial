@@ -74,11 +74,11 @@ li a {
     margin: 0 auto;
     padding: 0 80px;
     box-sizing: border-box;
-    padding-top: 274px;
+    padding-top: 200px;
 }
 
 .header-offer {
-    font-size: 50px;
+    font-size: 40px;
     color: white;
 
 }
@@ -103,3 +103,100 @@ li a {
     margin: 0px;
 }
 
+
+
+.one_plates {
+    width: 225px;
+    height: 148px;
+    background: #2378FC;
+    color: #fff;
+    position: absolute;
+    top: 394px;
+    right: 500px;
+}
+
+.one_plates a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 40px;
+}
+
+.one_plates p {
+    padding-top: 30px;
+    padding-left: 40px;
+    font-size: 21px;
+    margin: 0 0 20px 0;
+}
+
+
+.two_plates {
+    width: 225px;
+    height: 148px;
+    background: #30BCC9;
+    color: #fff;
+    position: absolute;
+    top: 394px;
+    right: 250px;
+}
+
+.two_plates a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 40px;
+}
+
+.two_plates p {
+    padding-top: 30px;
+    padding-left: 40px;
+    font-size: 21px;
+    margin: 0 0 20px 0;
+}
+
+
+.three_plates {
+    width: 225px;
+    height: 175px;
+    background: #FFC41E;
+    color: #fff;
+    position: absolute;
+    top: 572px;
+    right: 500px;
+}
+
+.three_plates a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 40px;
+}
+
+.three_plates p {
+    padding-top: 30px;
+    padding-left: 40px;
+    font-size: 21px;
+    margin: 0 0 20px 0;
+}
+
+
+.four_plates {
+    width: 225px;
+    height: 175px;
+    background: #F6404F;
+    color: #fff;
+    position: absolute;
+    top: 572px;
+    right: 250px;
+}
+
+.four_plates a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 40px;
+
+}
+
+.four_plates p {
+    padding-top: 30px;
+    padding-left: 40px;
+    font-size: 21px;
+    margin: 0 0 20px 0;
+}
