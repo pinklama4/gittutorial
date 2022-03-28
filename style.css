@@ -67,3 +67,39 @@ li a {
     border-top: 1px solid #FFFFFF;
 }
 
+
+.offer {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 80px;
+    box-sizing: border-box;
+    padding-top: 274px;
+}
+
+.header-offer {
+    font-size: 50px;
+    color: white;
+
+}
+
+.offer-content p {
+    color: #FFF;
+    font-size: 24px;
+    max-width: 400px;
+    margin: 0px;
+    padding-bottom: 25px;
+}
+
+.offer-content a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+.offer-content h1 {
+    padding-bottom: 35px;
+    margin: 0px;
+}
+
