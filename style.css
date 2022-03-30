@@ -237,6 +237,9 @@ li a {
     margin: 0 0 30px;
     font-size: 30px;
 }
+.organizers a:hover {
+    color: #FFC41E;
+}
 
 
 
@@ -256,6 +259,9 @@ li a {
     margin: 0 0 30px;
     font-size: 30px;
 }
+.exhibitors a:hover {
+    color: #FFC41E;
+}
 
 
 
@@ -274,6 +280,9 @@ li a {
     margin: 0 0 30px;
     font-size: 30px;
 }
+.for-visitors a:hover {
+    color: #FFC41E;
+}
 
 
 
@@ -291,4 +300,74 @@ li a {
     color: #FFFFFF;
     margin: 0 0 30px;
     font-size: 30px;
+}
+.press a:hover {
+      color: #FFC41E;
+    text-decoration-color: #FFC41E;
+
+  }
+
+
+
+.events {
+    background: #FFC41E;
+    height: 1100px;
+}
+.events h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-events {
+    display: flex;
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.header-events a {
+    color: black;
+    text-decoration: none;
+    margin-left: 450px;
+    padding-top: 84px;
+}
+.header-events h1 {
+    padding-top: 75px;
+}
+
+
+
+
+.posters {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+.poster {
+    margin-right: 30px;
+}
+
+
+.one-line-poster {
+    display: flex;
+    padding-top: 100px;
+}
+.one-line-poster h1 {
+    color: #F6404F;
+}
+
+
+.two-line-poster {
+    display: flex;
+    padding-top: 40px;
+}
+.two-line-poster h1 {
+    color: #F6404F;
+}
+
+.two-poster {
+    margin-right: 30px;
 }
