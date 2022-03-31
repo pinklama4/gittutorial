@@ -5,7 +5,6 @@ body {
 }
 
 
-
 .bgc-header {
     background-image: url("./img/bgc.png");
     height: 800px;
@@ -45,7 +44,7 @@ li a {
 }
 
 .search {
-    padding-top: 31.91px;
+    padding-top: 50px;
     padding-right: 70px;
 }
 
@@ -56,10 +55,10 @@ li a {
 }
 
 .translation {
-    padding-top: 14.91px;
+    padding-top: 35px;
 }
 
-.translation img{
+.translation img {
     padding-right: 11px;
 }
 
@@ -102,7 +101,6 @@ li a {
     padding-bottom: 35px;
     margin: 0px;
 }
-
 
 
 .one_plates {
@@ -202,7 +200,6 @@ li a {
 }
 
 
-
 .section-info {
     background: #2378FC;
     height: 426px;
@@ -211,108 +208,113 @@ li a {
 }
 
 
-
 .text-info {
     display: flex;
     width: 100%;
     max-width: 1110px;
     margin: 0 auto;
-
     box-sizing: border-box;
 }
 
+.text-info a {
+    width: fit-content;
+}
 
 
 .organizers {
     display: grid;
 }
+
 .organizers a {
     color: white;
     text-decoration: none;
     margin-bottom: 15px;
 }
+
 .organizers h1 {
     color: white;
     padding-right: 121px;
     margin: 0 0 30px;
     font-size: 30px;
 }
+
 .organizers a:hover {
     color: #FFC41E;
 }
 
 
-
-
-
 .exhibitors {
     display: grid;
 }
+
 .exhibitors a {
     color: white;
     text-decoration: none;
     margin-bottom: 15px;
 }
+
 .exhibitors h1 {
     color: white;
     padding-right: 121px;
     margin: 0 0 30px;
     font-size: 30px;
 }
+
 .exhibitors a:hover {
     color: #FFC41E;
 }
 
 
-
-
 .for-visitors {
     display: grid;
 }
+
 .for-visitors a {
     color: white;
     text-decoration: none;
     margin-bottom: 15px;
 }
+
 .for-visitors h1 {
     color: white;
     padding-right: 121px;
     margin: 0 0 30px;
     font-size: 30px;
 }
+
 .for-visitors a:hover {
     color: #FFC41E;
 }
 
 
-
-
-
 .press {
     display: grid;
 }
+
 .press a {
     color: white;
     text-decoration: none;
     margin-bottom: 15px;
 }
+
 .press h1 {
     color: #FFFFFF;
     margin: 0 0 30px;
     font-size: 30px;
 }
+
 .press a:hover {
-      color: #FFC41E;
+    color: #FFC41E;
     text-decoration-color: #FFC41E;
 
-  }
-
+}
 
 
 .events {
     background: #FFC41E;
     height: 1100px;
 }
+
 .events h1 {
     margin: 0px;
     padding: 0px;
@@ -325,17 +327,17 @@ li a {
     margin: 0 auto;
     box-sizing: border-box;
 }
+
 .header-events a {
     color: black;
     text-decoration: none;
     margin-left: 450px;
     padding-top: 84px;
 }
+
 .header-events h1 {
     padding-top: 75px;
 }
-
-
 
 
 .posters {
@@ -355,6 +357,7 @@ li a {
     display: flex;
     padding-top: 100px;
 }
+
 .one-line-poster h1 {
     color: #F6404F;
 }
@@ -364,6 +367,7 @@ li a {
     display: flex;
     padding-top: 40px;
 }
+
 .two-line-poster h1 {
     color: #F6404F;
 }
@@ -371,7 +375,6 @@ li a {
 .two-poster {
     margin-right: 30px;
 }
-
 
 
 .news {
@@ -384,11 +387,13 @@ li a {
     display: flex;
 
 }
+
 .header-news h1 {
     padding-right: 272px;
     padding-top: 50px;
 
 }
+
 .header-news a {
     text-decoration: none;
     color: black;
@@ -400,6 +405,7 @@ li a {
     padding-right: 125px;
     padding-top: 75px;
 }
+
 .news-photo img {
     margin-bottom: 59px;
 }
@@ -411,11 +417,10 @@ li a {
     margin: 0 auto;
     box-sizing: border-box;
 }
-}
 
 
 .main-news {
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .news-photo {
@@ -426,10 +431,80 @@ li a {
     display: flex;
     margin-bottom: 30px;
 }
+
 .dates {
     color: #F6404F;
 }
 
 .text-news {
     margin-left: 30px;
+}
+
+
+footer {
+    background: #30BCC9;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links a {
+    margin-top: 20px;
+    width: fit-content;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-links a:nth-of-type(n + 2) {
+    margin-top: 10px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 80px;
+    grid-row-gap: 40px;
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.footer-content a:hover {
+    color: #FFC41E;
+}
+
+.footer-content p {
+    color: #FFFFFF;
+    font-size: 21px;
+}
+
+.iqon-social-footer a {
+    margin-right: 30px;
+}
+
+.button-footer {
+    background: #F6404F;
+}
+
+.button-footer:active {
+    background: #fa0418;
+}
+
+button {
+    outline: none;
+    border: none;
+    padding: 8px 10px;
+}
+
+.col input {
+    width: 215px;
+    height: 40px;
+    border: none;
+}
+
+.form {
+    display: flex;
 }
