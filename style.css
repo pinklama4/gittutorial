@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Roboto;
+    font-family: Roboto, serif;
 }
 
 
@@ -86,7 +86,7 @@ li a {
     color: #FFF;
     font-size: 24px;
     max-width: 400px;
-    margin: 0px;
+    margin: 0;
     padding-bottom: 25px;
 }
 
@@ -99,7 +99,7 @@ li a {
 
 .offer-content h1 {
     padding-bottom: 35px;
-    margin: 0px;
+    margin: 0;
 }
 
 
@@ -289,6 +289,7 @@ li a {
 
 .press {
     display: grid;
+    width: fit-content;
 }
 
 .press a {
@@ -316,8 +317,8 @@ li a {
 }
 
 .events h1 {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 .header-events {
@@ -508,3 +509,4 @@ button {
 .form {
     display: flex;
 }
+
