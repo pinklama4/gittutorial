@@ -4,6 +4,15 @@ body {
     font-family: Roboto, serif;
 }
 
+p, a {
+    /* resets */
+    margin: 0;
+
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 
 .bgc-header {
     background-image: url("./img/bgc.png");
@@ -12,58 +21,110 @@ body {
 
 
 header {
+    /*max-width: 1600px;*/
+    /*margin: 0 auto;*/
+    /*padding: 0 100px;*/
+    /*display: flex;*/
+
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    padding: 33px 0;
+    box-sizing: border-box;
+}
+
+.header-content {
     width: 100%;
     max-width: 1600px;
     margin: 0 auto;
     padding: 0 100px;
     box-sizing: border-box;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.logo {
-    padding-right: 311px;
-    padding-top: 33px;
-}
+/*.logo {*/
+    /*padding-right: 311px;*/
+    /*padding-top: 33px;*/
+/*}*/
 
-.nav-content {
-    padding-top: 35px;
-}
+/*.nav-content {*/
+    /*padding-top: 35px;*/
+/*}*/
 
-.nav ul {
+/*.nav ul {*/
+    /*display: flex;*/
+    /*color: white;*/
+    /*list-style-type: none;*/
+/*}*/
+
+/*li a {*/
+    /*color: white;*/
+    /*text-decoration: none;*/
+    /*margin-right: 47px;*/
+    /*font-size: 16px;*/
+/*}*/
+
+nav {
     display: flex;
-    color: white;
-    list-style-type: none;
-
+    align-items: center;
 }
 
-li a {
-    color: white;
+nav a {
     text-decoration: none;
-    margin-right: 47px;
-    font-size: 16px;
 }
 
-.search {
-    padding-top: 50px;
-    padding-right: 70px;
+nav a:nth-of-type(n + 2) {
+    margin-left: 48px;
 }
 
-.translation a {
+/*.search {*/
+    /*padding-top: 50px;*/
+    /*padding-right: 70px;*/
+/*}*/
+
+/*.translation a {*/
+    /*display: flex;*/
+    /*color: white;*/
+    /*text-decoration: none;*/
+/*}*/
+
+/*.translation {*/
+    /*padding-top: 35px;*/
+/*}*/
+
+/*.translation img {*/
+    /*padding-right: 11px;*/
+/*}*/
+
+/*.border {*/
+/*    border-top: 1px solid #FFFFFF;*/
+/*}*/
+
+.header-buttons {
     display: flex;
-    color: white;
+    align-items: center;
+}
+
+@media (max-width: 1220px) {
+    .header-buttons {
+        display: none;
+    }
+}
+
+.header-buttons-item {
+    display: flex;
+    align-items: center;
     text-decoration: none;
+    line-height: 1.35;
 }
 
-.translation {
-    padding-top: 35px;
+.header-buttons-item > p {
+    margin-left: 11px;
 }
 
-.translation img {
-    padding-right: 11px;
-}
-
-.border {
-    border-top: 1px solid #FFFFFF;
+.header-buttons-item:nth-of-type(n + 2) {
+    margin-left: 70px;
 }
 
 
